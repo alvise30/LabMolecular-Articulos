@@ -6,42 +6,42 @@ Database file #1: 30_ArtículoProteínasNotes.bib
 Database file #2: proteinasBib.bib
 You've used 1 entry,
             1935 wiz_defined-function locations,
-            480 strings with 3872 characters,
-and the built_in function-call counts, 462 in all, are:
-= -- 42
-> -- 23
-< -- 0
-+ -- 8
-- -- 8
-* -- 41
-:= -- 86
+            477 strings with 3836 characters,
+and the built_in function-call counts, 290 in all, are:
+= -- 28
+> -- 7
+< -- 1
++ -- 2
+- -- 2
+* -- 19
+:= -- 58
 add.period$ -- 3
 call.type$ -- 1
-change.case$ -- 9
+change.case$ -- 6
 chr.to.int$ -- 1
 cite$ -- 1
-duplicate$ -- 14
-empty$ -- 30
-format.name$ -- 9
-if$ -- 87
+duplicate$ -- 13
+empty$ -- 21
+format.name$ -- 3
+if$ -- 53
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 1
+missing$ -- 0
 newline$ -- 8
 num.names$ -- 3
-pop$ -- 7
+pop$ -- 5
 preamble$ -- 1
-purify$ -- 9
+purify$ -- 6
 quote$ -- 0
-skip$ -- 11
+skip$ -- 10
 stack$ -- 0
-substring$ -- 33
-swap$ -- 1
+substring$ -- 12
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 6
 warning$ -- 0
-while$ -- 3
+while$ -- 2
 width$ -- 0
 write$ -- 15
