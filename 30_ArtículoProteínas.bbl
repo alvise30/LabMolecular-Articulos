@@ -1,8 +1,27 @@
 \begin{thebibliography}{}
 
+\bibitem[gui, 2007]{guia}
+ (2007).
+\newblock {\em Guía}.
+\newblock Universidad de los Andes, 1 edition.
+
+\bibitem[Paradis et~al., 2005]{intro2}
+Paradis, S., Boissinot, M., Paquette, N., Bélanger, S., Martel, E., and
+  Bourdreau, D. (2005).
+\newblock Phylogeny of the enterobacteriaceae based on genes enconding
+  elongation factor tu and f-atpase beta-subunit.
+\newblock {\em International Journal of Systematic and Evolutionary
+  Microbiology}, 10(10).
+
 \bibitem[Vinuesa, 2007]{metodos}
 Vinuesa, P. (2007).
 \newblock {\em Metodos de distancia y Pruebas de bootsrap}.
 \newblock Centro de ciencias Genòmicas, UNAM, 1 edition.
+
+\bibitem[Yang et~al., 2012]{intro1}
+Yang, X.-Y., Lu, J., Sun, X., and He, Q.-Y. (2012).
+\newblock Application of subproteomics in the characterization of gram-positive
+  bacteria.
+\newblock {\em Journal of Proteomics}, 75(10):8.
 
 \end{thebibliography}

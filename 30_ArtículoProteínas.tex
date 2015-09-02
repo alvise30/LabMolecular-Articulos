@@ -101,20 +101,26 @@ letter,
 %\tableofcontents
 
 \section{\label{sec:Intro}Introducción}
-%	Aquí hay q escribir la introducción de nuestro artículo\citep{Alfonso2010a}. \\
-
+	La proteómica es una técnica empleada para el estudio de las proteínas de un individuo \cite{intro1}. En la última década, la proteómica microbiana ha generado avances que ofrecen la  posibilidad de comprender totalmente los sistemas microbianos, la evolución y el mecanismo patogénico\cite{intro1}. Gracias a esta técnica ha sido posible verificar los resultados de forma minuciosa, diversas muestras de interés en áreas como biología molecular, bioinformática, bioquímica entre otras, las cuales han evaluado y desarrollado técnicas que permiten el procesamiento y análisis de la información adquirida. En esencia, la proximidad filogenética y biológica es directamente proporcional al número de proteínas compartidas entre diversos organismos, es decir, el número de compatibilidad de bandas en el gel de electroforesis.
+	
+	Uno de los instrumentos más utilizados para analizar y separar el proteoma es la electroforesis en geles de poliacrilamida, la cual contiene dodecil-sulfato sódico (SDS), que habilita la separación proteica en función de su peso molecular. La técnica SDS-PAGE combina, generalmente, la separación del proteoma teniendo en cuenta su punso isoelectrico y, adicionalmente, la separación de acuerdo a  esas propiedades isoeléctricas. Su tamaño permite el aislamiento en el gel discontinuo, por lo que ésta técnica permite, analizar de forma individual la muestra. (CITA)
+	
+	En este estudio se utilizaron  bacterias pertenecientes a la familia Enterobacteriaceae, las cuales, forman un conjunto diverso de microorganismos, donde generalmente se encuentran microorganismos patógenos de plantas, animales y vegetales, entre otros. Los patógenos más destacados son diversos serotipos de las bacterias Escherichia coli, Salmonella spp, Yersinia enterocolitica, éstos microorganismos son agentes causales de ETAs especialmente (Enfermedades transmitidas por alimentos). Se caraterizan por ser anaerobios facultativos, gram negativos, catalasa positiva y oxidasa negativa\cite{intro2}. Sin embargo, muchas de estas características son determinadas utilizando la microbiología clásica, que requiere más tiempo para la lectura y análisis de resultados. Por ello, surge la necesidad de emplear nuevas estrategias que permitan determinar características o muestras de interés en el menor tiempo posible, con la garantía de obtener resultados confiables.
+	
+	El objetivo de este estudio  es realizar una comparación de los perfiles protéicos de las cepas bacterianas \textit{Escherichia coli C600, E. coli K12, E.coli W, Proteus spp, Salmonella typhi} y \textit{Yersinia enterocolitica}. De forma que evalue las similitudes y discrepancias  por medio de programas como PAUP, NJ y UPGMA, los cuales brindan medidas de similitud entre estas por medio de fenogramas.
+	
 
 \section{\label{sec:MyM}Materiales y Métodos} %Final Editing
 	Para este estudio se utilizaron proteínas bacterianas de \textit{E. coli W, E. coli K12, E. coli C600, Yersinia enterocolitica, Salmonella typhi y Proteus spp},  todas pertenecientes a la familia \textit{Enterobacteriaceae}; a continuación se enuncian los pasos seguidos para determinar su relación filogenética.
 	Primero se realizó la extracción de proteínas de las células correspondientes, luego se realizó una electroforesis SDS-PAGE en gel de poliacrilamida vertical y se procedió a teñir con azul de Coomasie. Se analizó el patrón de bandas obtenido utilizando la herramienta computacional \textit{PAUP} obteniendo finalmente los fenogramas correspondientes, con los cuales se pudo determinar la relación filogenética entre las bacterias estudiadas. Las siguientes secciones describen en detalle cada uno de los procedimientos enunciados.
 	
-	\subsection{\label{sec:ExtraMet}Extracción de Proteínas Bacterianas}
+	\subsection{\label{sec:ExtraMet}Extracción de Proteínas Bacterianas}\cite{guia}
 		El primer paso para determinar las relaciones filogenéticas de las bacterias en estudio es extraer las proteínas de las células.
 		Se comienza dejando las bacterias en crecimiento ON (Over Night) en caldo LB con una agitación de 250$rpm$. Una vez terminado el crecimiento, se procede a medir con una micropipeta 1$ml$ de cada uno de los cultivos y se colocan en \textit{eppendorfs} individuales. Se centrifugan las muestras a 13$Mrpm$ durante 5 minutos; seguidamente, se descarta 800$\mu l$ de la solución en hipoclorito diluido. Los 200$\mu l$ restantes fueron se resuspenden con vórtex. Se añade, a continuación, 100$\mu l$ de \textit{buffer} (contiene SDS), correspondientes a $\frac{1}{2}$ del volumen de cada una de las soluciones con las muestras en los eppendorfs. Luego éstos se pusieron en una plancha de calentamiento durante 5 minutos a 100$^{\circ}C$. Posteriormente se centrifugaron a 13$Mrpm$ por 5 minutos, y finalmente, se extraen de cada una de las muestras el sobrenadante donde se encuentran las proteínas de interés.
 		
 	%	Es importante mencionar que el \textit{buffer} utilizado contenía detergente SDS (Sodium bla bla) que adiciona la carga negativa a la muestra.También es pertinente resaltar que la presencia del glicerol fue fundamental para evitar la formación de cristales y el congelamiento que podían alterar a muestra, de igual muestra, el azul de bromofenol fue relevante al permitir visualizar el frente de corrido. 
 			
-	\subsection{\label{sec:ElectroMet}Electroforesis en geles de Poliacrilamida}		
+	\subsection{\label{sec:ElectroMet}Electroforesis en geles de Poliacrilamida}\cite{guia}
 		Posterior a la extracción de proteínas se procede a realizar la electroforesis en geles de poliacrilamida vertical. 
 		
 		Se comienza preparando los geles. El primero a preparar es el gel de separación; se prepara este gel a una concentración del 10\% debido a que las proteínas en cuestión se encuentran en el rango de 16-70$KDa$. El primer paso es mezclar en un beaker 2$ml$ de solución de poliacrilamida, 1.25$ml$ de una solución con pH 8.8 y 1.75$ml$ de $H_2O$. A continuación se adicionan simultáneamente 50$\mu l$ de persulfato de amonio al 10\% y 8$\mu l$ de TEMED. Inmediatamente se vierte dentro de la cámara del montaje y se deja polimerizar unos 45 minutos. Para el gel de agrupamiento, se comienza mezclando en un beaker 325$\mu l$ de poliacrilamida, 625$\mu l$ de una solución con pH 6.8 y 1525$\mu l$ de $H_2O$. Luego se adiciona simultáneamente 25$\mu l$ de persulfato de amonio al 10\% y 5$\mu l$ de TEMED, se agita bien y se vierte en la cavidad del montaje, se ponen los peines para crear los pozos y se deja polimerizar por 15 minutos. Transcurrido este tiempo se pueden retirar los peines y proceder con el montaje de la cámara de electroforesis. El montaje debe verse similar al mostrado en la figura \ref{Imagen: SDS-PAGE}.
@@ -129,14 +135,14 @@ letter,
 
 		%Nota: Cabe resaltar que en el gel se siembran proteínas de 2 bacterias más: bla1 y bla2. Estas fueron suministradas por el docente al momento de la siembra.
 		
-	\subsection{\label{sec:TinMet}Tinción con Azul de Coomasie}	
+	\subsection{\label{sec:TinMet}Tinción con Azul de Coomasie}\cite{guia}
 		Una vez el gel esté fijado, se tiñe con Azul de Coomasie para ver el patrón de bandeo.
 		
 		Se prepara la solución de tinción mezclando 50\% de metanol, 10\% de ácido acético, 40\% de $dH_2O$ y Coomasie al 0.05\%. Se Retira la solución de fijación de la cubeta, cuidando que el gel no quede con pliegues, se agrega la solución de tinción y se deja en agitación continua a aproximadamente 60$rpm$ y 37$^{\circ}C$ durante 45 minutos. Transcurrido el tiempo, se descarta la solución de tinción y se hace un lavado $dH_2O$. Seguido de esto, se agrega la solución de destinción previamente preparada así: 50\% de metanol, 10\% de ácido acético y 40\% de $dH_2O$. La cubeta con el gel en la solución de destinción, se deja en agitación constante a 50$rpm$ y 37$^{\circ}C$ hasta que se obtiene la intensidad de las bandas deseada.
 		
 		Obtenido el bandeo deseado, se retira el gel de la solución de destinción y se pone a secar en papel celofán en frío toda una noche.
 		
-	\subsection{\label{sec:Fen}Construcción del fenograma}	
+	\subsection{\label{sec:Fen}Construcción del fenograma}\cite{metodos}
 		Una vez seco el gel, se procede al reconocimiento y conteo de bandas para su análisis, y se utiliza \textit{PAUP\ 4 Beta} y \textit{FigTree v1.4.2} para la construcción, modificación y análisis de los fenogramas.
 		
 		Al tener identificadas las bandas presentes para cada uno de los organismo se puede hacer una matriz binaria, unos y ceros, para representar ausencia $\left(0\right)$ o presencia $\left(1\right)$ de cada proteína en cada celda del gel. Construida la matriz, se redacta un archivo .nex en el que se incluye el número de individuos, un nombre provisional para cada uno, por ejemplo Individuo 1, el número de celdas de la matriz y finalmente la matriz, cuidando que cada bacteria ocupe una fila. Se procede a cargar los datos a \textit{PAUP} a través de este archivo. Realizada la carga de los datos, se ejecuta el comando NJ; este habilita la creación de un árbol filogenético por medio del análisis algorítmico de \textbf{Neighbor Joining} el cual “es un método puramente algorítmico, representando una aproximación heurística para encontrar el árbol de evolución mínima más corto” \cite{metodos}, es decir, el que implique menos pasos. Seguidamente, se ejecuta el comando UPGMA crea un árbol filogenético utilizando el análisis \textbf{Unweighted Pair Group Method Using Average Linkage} el cual “se puede concebir como un método heurístico para encontrar la topología ultramarina---todas las ojas equidistantes a la raíz---de mínimos cuadrados para una matriz de distancias pareadas” \cite{metodos}. Obtenidos los árboles podemos visualizarlos y editarlos en \textit{FigTree}. Después de realizar los cambios pertinentes y editar el árbol de manera que fuese sencilla su lectura, se guardan las imágenes para su posterior análisis.	
@@ -193,19 +199,15 @@ letter,
 		Estos son los resultados finales y esperados, los cuales pueden ser analizados de manera directa, clara y concisa.
 
 \section{\label{sec:Dis}Discusión de Resultados}
+	Con los resultados obtenidos se confirmó la relación filogeneticas existentes entre las distintas sepas analizadas. Se observan patrones de bandas bien definidos, lo que afirma la obtención de proteínas de las muestras y la correcta ejecución de los procedimientos.
+	
 	Al mirar los fenogramas se puede concluir la cercanía evolutiva que tiene las cepas analizadas entre sí. A partir del primer árbol ---figura \ref{Grafica:Nj}--- KDJEIUDJSHSDUDFHDHD; mientras del segundo ---figura \ref{Grafica:UPGMA}--- se puede afirmar JDEHDUEHEHEHED.
 	
-	A partir de estos resultados se puede corroborar que los procedimientos fueron seguidos adecuadamente.
+	Los posibles errores en los resultados pudieron introducirse bien sea por los instrumentos utilizados, de la misma forma que por errores humanos. Aquí juega un papel importante la incertidumbre de los instrumentos, 
 	
 	El objetivo de la práctica se cumplió a satisfacción.
 	
-	Los posibles errores en esta práctica pudieron ser causados por una serie de factores como:
-	\begin{itemize}
-	\item Incertidumbre de los instrumentos utilizados en las prácticas.
-	\item Precisión de los aparados utilizados en las prácticas.
-	\item Errores en el seguimiento de los procedimientos.
-	\item Errores introducidos por el hombre, tales como el paralaje, ...
-	\end{itemize}
+	
 	
 	
 

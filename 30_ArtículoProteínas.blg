@@ -4,44 +4,46 @@ The top-level auxiliary file: 30_ArtículoProteínas.aux
 The style file: apalike.bst
 Database file #1: 30_ArtículoProteínasNotes.bib
 Database file #2: proteinasBib.bib
-You've used 1 entry,
+Warning--to sort, need author or key in guia
+You've used 4 entries,
             1935 wiz_defined-function locations,
-            477 strings with 3836 characters,
-and the built_in function-call counts, 290 in all, are:
-= -- 28
-> -- 7
+            493 strings with 4334 characters,
+and the built_in function-call counts, 1349 in all, are:
+= -- 124
+> -- 63
 < -- 1
-+ -- 2
-- -- 2
-* -- 19
-:= -- 58
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 1
-duplicate$ -- 13
-empty$ -- 21
-format.name$ -- 3
-if$ -- 53
++ -- 22
+- -- 22
+* -- 119
+:= -- 248
+add.period$ -- 12
+call.type$ -- 4
+change.case$ -- 31
+chr.to.int$ -- 4
+cite$ -- 6
+duplicate$ -- 53
+empty$ -- 89
+format.name$ -- 25
+if$ -- 251
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 3
-pop$ -- 5
+missing$ -- 2
+newline$ -- 23
+num.names$ -- 9
+pop$ -- 27
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 31
 quote$ -- 0
-skip$ -- 10
+skip$ -- 38
 stack$ -- 0
-substring$ -- 12
-swap$ -- 2
+substring$ -- 52
+swap$ -- 6
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
-warning$ -- 0
-while$ -- 2
+type$ -- 24
+warning$ -- 1
+while$ -- 7
 width$ -- 0
-write$ -- 15
+write$ -- 53
+(There was 1 warning)
